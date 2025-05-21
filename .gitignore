@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+
+# Data files (optional - may want to keep smaller datasets)
+data/*/raw/*
+*.zip
+*.tar.gz
+
+# Model files (optional - may want to keep smaller models)
+models/*/*.h5
+models/*/*.pkl
+models/*/*.pt
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db 
